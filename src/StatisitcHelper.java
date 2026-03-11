@@ -19,7 +19,12 @@ public class StatisitcHelper {
 
     public int CalculateAverage(int[] tab){
 
-        return 0;
+        int sum = 0;
+        for(int i = 0; i < tab.length; i++){
+            sum += tab[i];
+        }
+
+        return sum;
     }
 
     public int getValue() {
