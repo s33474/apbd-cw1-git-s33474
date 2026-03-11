@@ -39,7 +39,13 @@ public class StatisitcHelper {
     }
 
     public int CalculateMin(int[] tab){
-        return 0;
+        int min = tab[0];
+        for(int i = 0; i < tab.length; i++){
+            if(tab[i] < min){
+                min = tab[i];
+            }
+        }
+        return min;
     }
 
     public int getValue() {
