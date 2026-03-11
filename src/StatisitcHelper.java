@@ -38,6 +38,10 @@ public class StatisitcHelper {
         return max;
     }
 
+    public int CalculateMin(int[] tab){
+        return 0;
+    }
+
     public int getValue() {
         return value;
     }
