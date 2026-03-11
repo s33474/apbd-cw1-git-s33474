@@ -7,6 +7,11 @@ public class StatisitcHelper {
     }
 
 
+    public int addValue(int a){
+        this.value += a;
+    }
+
+
     public int getValue() {
         return value;
     }
