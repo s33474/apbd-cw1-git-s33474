@@ -9,9 +9,14 @@ public class StatisitcHelper {
 
     public int addValue(int a){
         this.value += a;
+        return this.value;
     }
 
-
+    public int subtractValue(int a){
+        this.value -= a;
+        return this.value;
+    }
+    
     public int getValue() {
         return value;
     }
