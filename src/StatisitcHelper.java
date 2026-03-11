@@ -27,6 +27,11 @@ public class StatisitcHelper {
         return sum;
     }
 
+    public int calculateMax(int[] tab){
+        return 0;
+        
+    }
+
     public int getValue() {
         return value;
     }
