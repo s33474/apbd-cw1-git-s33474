@@ -16,7 +16,12 @@ public class StatisitcHelper {
         this.value -= a;
         return this.value;
     }
-    
+
+    public int CalculateAverage(int[] tab){
+
+        return 0;
+    }
+
     public int getValue() {
         return value;
     }
